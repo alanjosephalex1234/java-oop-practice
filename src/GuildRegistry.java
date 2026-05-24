@@ -51,8 +51,8 @@ class GuildRegistry {
         System.out.println("--- RELEASING HUNTERS ---");
         for(Hunter i : List) {
             i.trackTarget("Han Solo");
-            if(i instanceof Augmentable) {
-                ((Augmentable) i).injectNanoBots();
+            if(i instanceof Augmentable u) {
+                u.injectNanoBots();
             }
             System.out.println("=====================================================================");
         }
