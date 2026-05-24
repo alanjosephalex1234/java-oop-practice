@@ -53,12 +53,13 @@ class CargoShip extends Starship {
     public CargoShip(String shipName, int shieldLevel) {
         super(shipName, shieldLevel);
     }
+
     @Override
     public void activateSystems() {
-        System.out.println(getShipName()+" warming up thrusters and securing cargo bays...");
+        System.out.println(getShipName() + " warming up thrusters and securing cargo bays...");
     }
 }
-public class GalaxyEmpire {
+class GalaxyEmpire {
     public static void main(String args[]) {
         Starship[] fleet={
                 new StarFighter("X-Wing Alpha", 100),
