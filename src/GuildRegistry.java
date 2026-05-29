@@ -157,7 +157,7 @@ class GuildRegistry {
     public static void purgeLowRatings(ArrayList<Hunter> list) {
         int initialSize = list.size();
 
-        System.out.println("⚠️ Initiating registry purge protocols...");
+        System.out.println("Initiating registry purge protocols...");
         for (int i = list.size() - 1; i >= 0; i--) {
             if (list.get(i).getBountyRating() < 9) {
                 System.out.println("Decommissioning asset: [" + list.get(i).getName() + "]");
