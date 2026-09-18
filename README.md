@@ -8,6 +8,7 @@ A curated collection of small Java projects for practicing object-oriented progr
 | --- | --- |
 | [Core OOP Practice](projects/core-oop-practice) | A set of exercises exploring classes, interfaces, inheritance, registries, and related OOP fundamentals. |
 | [Alarm Clock](projects/alarm-clock) | A console alarm clock using `Runnable`, time parsing, threads, and the Java Sound API. |
+| [Data Structures](projects/data-structures) | A runnable fixed-capacity stack implementation demonstrating push and pop operations. |
 
 ## Repository layout
 
@@ -15,6 +16,7 @@ A curated collection of small Java projects for practicing object-oriented progr
 projects/
   core-oop-practice/   # original collection of OOP exercises
   alarm-clock/         # console alarm-clock project
+  data-structures/     # standalone data-structure exercises
 ```
 
 ## Getting started
